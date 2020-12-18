@@ -2,7 +2,7 @@
 
 from setuptools import setup, find_packages
 
-version = "1.2.3rc7"
+version = "1.2.3rc8"
 
 with open("docs/About.rst", "r") as fh:
     long_description = fh.read()
@@ -46,7 +46,7 @@ setup(
     install_requires=[
         "setuptools",
         "plone.api",
-        "valer.core==1.3.5rc1",
+        "valer.core==1.3.5rc7",
     ],
     extras_require={
         "test": [
